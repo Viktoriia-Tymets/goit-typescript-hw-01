@@ -13,4 +13,4 @@ type Form = {
   errors: Errors;
 };
 
-type Params = Omit<Form, ;
+type Params = Omit<Form, "errors">;
