@@ -5,7 +5,6 @@ function calc(num1: number | string, num2: number | string) {
     return num1.toString() + num2.toString();
   }
 }
-}
 
 function customError(message: string): never {
   throw new Error(message);
